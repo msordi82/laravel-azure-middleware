@@ -1,13 +1,19 @@
 {
-    "name": "msordi82/laravel-azure-middleware",
+    "name": "rootinc/laravel-azure-middleware",
     "description": "Azure Middleware Auth",
     "type": "library",
     "require": {
-        "php": ">=7.3.0",
+        "rootinc/laravel-azure-middleware": "dev-master",
         "laravel/framework": ">=8.0.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "microsoft/microsoft-graph": "^1.5"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "msordi82/laravel-azure-middleware"
+        }
+    ],
     "license": "MIT",
     "authors": [
         {
